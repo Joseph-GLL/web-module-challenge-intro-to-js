@@ -20,7 +20,8 @@ Do the following:
    HINT: no function required
 */
 
-
+let votingAge = 18;
+console.log(votingAge);
 
 /*
 Task 1b - Values (not auto tested)
@@ -34,8 +35,10 @@ Do the following:
    HINT: no function required
 */
 
+let firstThing = 10;
+let secondThing = 5;
 
-
+let newThing = firstThing + secondThing;
 
 
 /*
