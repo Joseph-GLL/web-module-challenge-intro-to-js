@@ -35,12 +35,16 @@ Do the following:
    HINT: no function required
 */
 
-let firstThing = 10;
+let firstThing = 4; //value updated to 4 from 10 to complete step 3 above
 let secondThing = 5;
 
-let newThing = firstThing + secondThing;
+if (firstThing > secondThing) {
+  console.log("true");
+} else {
+  console.log("false")
+}
 
-
+console.log(firstThing);
 /*
 Task 1c - Convert Strings to Numbers (not auto tested)
 
@@ -51,8 +55,10 @@ Do the following:
 
    HINT: look up the Number method
 */
+let yearB = '1999';
+let yearBInt = Number(yearB);
 
-
+console.log(yearBInt);
 
 
 /*
