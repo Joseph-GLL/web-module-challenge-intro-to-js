@@ -139,11 +139,32 @@ NOTE 2: This is a great time to check the tests to see what it expects, versus w
         So, on this one test, the weight would be 4 pounds, and the age would be 1 years old. It's expecting your function to return a decimal number of 0.2
 */  
 
-function hungryDog(/*add your code here*/){
-  /*add your code here*/
+function hungryDog(dogWeight, dogAge){
+  if (dogAge = 1 && dogWeight <= 5) {
+    let foodNeeded = dogWeight * 0.05;
+    console.log('The amount of food you need to give your dog is '+ foodNeeded + ' pounds');
+  } else if (dogAge >= 1 && dogWeight >= 6 || dogWeight <= 10){
+    let foodNeeded = dogWeight * 0.04;
+    console.log('The amount of food you need to give your dog is ' + foodNeeded + ' pounds');
+  } else if (dogAge >= 1 && dogWeight >=11 || dogWeight <=15){
+    let foodNeeded = dogWeight * 0.03;
+    console.log('The amount of food you need to give your dog is ' + foodNeeded + ' pounds');
+  } else if (dogAge >= 1 && dogWeight > 15){
+    let foodNeeded = dogWeight * 0.02;
+    console.log('The amount of food you need to give your dog is ' + foodNeeded + ' pounds');
+  } else if (dogAge >= 0.16 || dogAge <= 0.33){
+    let foodNeeded = dogWeight * 0.1;
+    console.log('Your pup needs ' + foodNeeded + 'pounds of food to grow properly');
+  } else if (dogAge > 0.33 || dogAge <= 0.58){
+    let foodNeeded = dogWeight * 0.05;
+    console.log('Your pup needs ' + foodNeeded + 'pounds of food to grow properly');
+  } else if (dogAge > 0.58 || dogAge <= .99){
+    let foodNeeded = dogWeight * 0.05;
+    console.log('Your pup needs ' + foodNeeded + 'pounds of food to grow properly');
+}
 }
 
-
+console.log(hungryDog(15, 3));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
